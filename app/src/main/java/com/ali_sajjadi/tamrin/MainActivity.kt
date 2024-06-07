@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val test = Test.instance
+        test.showLog()
 
     }
 
