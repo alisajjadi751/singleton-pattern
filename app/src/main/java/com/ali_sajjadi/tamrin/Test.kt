@@ -14,12 +14,4 @@ class Test private constructor(){
 
     }
 
-    fun showLog(){
-
-        val price = 1000000000L
-        val df = DecimalFormat("0,000")
-
-        Log.i("TESTING","${df.format(price)} ")
-    }
-
 }
